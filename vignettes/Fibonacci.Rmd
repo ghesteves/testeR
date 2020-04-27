@@ -1,0 +1,29 @@
+---
+title: "Fibonacci"
+author: "Gustavo H. Esteves"
+date: "`r Sys.Date()`" 
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fibonacci}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# A vignette example
+
+This document is an example of vignette to use as a general documentation of an R package. Here it illustrate only one function include in a test package intitled testeR.
+
+<!-- ```{r, include = FALSE} -->
+<!-- knitr::opts_chunk$set( -->
+<!--   collapse = TRUE, -->
+<!--   comment = "#>" -->
+<!-- ) -->
+<!-- ``` -->
+
+## An example of subsection
+
+Loading testeR package an shows the 10 first Fibonacci numbers:
+```{r}
+library(testeR)
+fibonacci(10)
+```
