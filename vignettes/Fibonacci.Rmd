@@ -13,12 +13,12 @@ vignette: >
 
 This document is an example of vignette to use as a general documentation of an R package. Here it illustrate only one function include in a test package intitled testeR.
 
-<!-- ```{r, include = FALSE} -->
-<!-- knitr::opts_chunk$set( -->
-<!--   collapse = TRUE, -->
-<!--   comment = "#>" -->
-<!-- ) -->
-<!-- ``` -->
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
 
 ## An example of subsection
 

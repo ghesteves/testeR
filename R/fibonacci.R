@@ -10,16 +10,13 @@
 #'
 #' @return A vector containing the first 'n' Fibonacci numbers.
 #'
-#'
-#'
-#'
-#'
+#' @export
 #'
 fibonacci <- function(n=3) {
   sequencia <- numeric(n)
   sequencia[1] <- sequencia[2] <- 1
   for (i in 3:n)
     sequencia[i] <- sequencia[i-2] + sequencia[i-1]
-  print("N primeiros valores da sequência de Fibonacci:")
+  print("First 'n' Fibonacci numbers:")
   sequencia
 }

@@ -8,7 +8,7 @@ Authors@R:
            email = "gesteves@servidor.uepb.edu.br",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: A First Test to Create R Packages Into GitGub.
-License: GPL v3
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
