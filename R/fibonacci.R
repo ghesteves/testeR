@@ -17,6 +17,6 @@ fibonacci <- function(n=3) {
   sequencia[1] <- sequencia[2] <- 1
   for (i in 3:n)
     sequencia[i] <- sequencia[i-2] + sequencia[i-1]
-  print("First 'n' Fibonacci numbers:")
+  print("First n Fibonacci numbers:")
   sequencia
 }
