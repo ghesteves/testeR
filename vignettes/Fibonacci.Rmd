@@ -22,8 +22,8 @@ knitr::opts_chunk$set(
 
 ## An example of subsection
 
-Loading testeR package an shows the 10 first Fibonacci numbers:
+Loading testeR package an shows the 5 first Fibonacci numbers:
 ```{r}
 library(testeR)
-fibonacci(10)
+fibonacci(n1=1, n2=5)
 ```

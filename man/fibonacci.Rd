@@ -4,17 +4,21 @@
 \alias{fibonacci}
 \title{Print Fibonacci sequence}
 \usage{
-fibonacci(n = 3)
+fibonacci(n1 = 1, n2 = 5)
 }
 \arguments{
-\item{n}{is a natural number.}
+\item{n1}{is a natural number, the first element of the sequence to be
+printed.}
+
+\item{n2}{also a natural number, the last element of the sequence to be
+printed.}
 }
 \value{
-A vector containing the first 'n' Fibonacci numbers.
+A vector containing Fibonacci numbers between n1 and n2.
 }
 \description{
-This function prints the 'n' first Fibonacci numbers. Here the 'n' is
-a natural number.
+This function prints the Fibonacci numbers between the positions n1 and n2.
+Here the 'n1' and 'n2' are natural numbers.
 }
 \details{
 This is just an initial test for constructing R packages using git and
