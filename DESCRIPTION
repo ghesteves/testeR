@@ -1,6 +1,6 @@
 Package: testeR
 Title: A First Test to Create R Packages Into GitGub
-Version: 0.0.0.9000
+Version: 0.0.1.0
 Authors@R: 
     person(given = "Gustavo",
            family = "Esteves",
