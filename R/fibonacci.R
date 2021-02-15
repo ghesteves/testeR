@@ -19,4 +19,5 @@ fibonacci <- function(n=3) {
     sequencia[i] <- sequencia[i-2] + sequencia[i-1]
   print("First n Fibonacci numbers:")
   sequencia
+
 }
