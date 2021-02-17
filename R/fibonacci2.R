@@ -80,7 +80,7 @@ goldnumber = function(a,b) {
   }
 
   print(s)
-  print('sequence of ratio beetween the n for n-1 index of fibonacci sequence:')
+  print('sequence of ratio between the n for n-1 index of fibonacci sequence:')
   print(round(goldsequence,b))
 
   for (i in 1:length(f)) {
