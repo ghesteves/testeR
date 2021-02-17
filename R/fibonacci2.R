@@ -30,3 +30,48 @@ fibonacci <- function(n1=1, n2=5) {
   print("Fibonacci numbers between n1 and n2:")
   sequencia[n1:n2]
 }
+
+goldnumber = function(a,b) {
+
+  ## creating some variables
+  s = fibonacci(a)
+  goldsequence = NULL
+  goldsequence = as.vector(goldsequence)
+  f = NULL
+  f = as.vector(f)
+
+  for (i in 1:length(s)) {
+
+    if (i != length(s)) {
+
+      goldsequence[i] = s[i+1]/s[i]
+      f[i] = round(goldsequence[i],b)
+
+    }
+    else {
+
+      break
+
+    }
+
+  }
+
+  print(s)
+  print('sequence of ratio beetween the n for n-1 index of fibonacci sequence:')
+  print(round(goldsequence,b))
+
+  for (i in 1:length(f)) {
+
+    ## testing if some index from the goldsequence vector get closer of the gold number with
+    ## three decimal places
+    if (f[i] == 1.618){
+
+      print(paste('needed ',i,' divisions with ',b,' decimal places to found the gold number(with 3 decimal places).'))
+      break
+
+    }
+
+  }
+
+
+}
