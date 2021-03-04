@@ -24,9 +24,13 @@ fibonacci <- function(n1=1, n2=5) {
   ## Definindo a sequencia
   sequencia <- numeric(n2)
   sequencia[1] <- sequencia[2] <- 1
+
   if(n2 >= 3)
     for (i in 3:n2)
       sequencia[i] <- sequencia[i-2] + sequencia[i-1]
+
   print("Fibonacci numbers between n1 and n2:")
+
   sequencia[n1:n2]
+
 }
